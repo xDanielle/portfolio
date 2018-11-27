@@ -1,0 +1,13 @@
+# setup 
+nvm use --delete-prefix v10.12.0
+export PATH="$(npm prefix -g)/bin:$PATH"
+cd /Users/Danielle/Documents/Programmeren/portfolio
+
+# For Development
+firebase serve 
+
+# For Production
+firebase deploy 
+
+# Watch changes in folder portfolio for every file
+browser-sync start --proxy "localhost:5000" --files "portfolio/*"
