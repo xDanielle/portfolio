@@ -43,9 +43,12 @@ h1, h2,h3,h4, h5 {
 a {
 	transition: .3s all;
 	color: $primary;
-	&:hover, &:focus, &:active {
+	&:hover, &:active {
 		color: darken($primary, 5%);
 		text-decoration: none;
+	}
+	&:focus {
+		border: blue;
 	}
 }
 
@@ -436,10 +439,6 @@ a {
 
 	.relative {
 		margin-bottom: 20px;
-
-		.outline-none {
-			outline:none;
-		}
 	}
 	.p-inner {
 		text-align: center;

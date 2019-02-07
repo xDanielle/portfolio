@@ -333,6 +333,8 @@ a {
   display: block; }
   .single-portfolio .relative {
     margin-bottom: 20px; }
+    .single-portfolio .relative .outline-none {
+      outline:none;}
   .single-portfolio .p-inner {
     text-align: center; }
     .single-portfolio .p-inner h4 {
