@@ -247,7 +247,6 @@
 
 	$(function() {
 		OnePageNav();
-		offCanvasNav();
 		contentWayPoint();
 		navbarState();
 		clickMenu();
